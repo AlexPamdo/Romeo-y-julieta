@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Romeo y Julieta - inicio</title>
+                    <link rel="stylesheet" href="./assets/index.css">
+</head>
+
+<body>
+
+    <!--este es el header que se mostrará en escritorio-->
+
+     <header id="header-desktop">
+
+          <!--Este es el logo-->
+
+         <div class="header__logo-container">
+             <img src="./assets/IMG/logo2.png" class="header__logo">
+         </div>
+    
+        <!--Nombre de la empresa-->
+
+         <div class="header__nombre-container">
+             <h2 class="header__h2"><span class="header__span-romeo">Romeo</span> <span class="header__span-y">y</span> <span class="header__span-julieta">Julieta</span></h2>
+         </div>
+    
+            <!--Este div contiene el icono de la lupa y el input que funcionara 
+            como buscador--> 
+
+        <div class="header__buscador">  
+                <span id="icon-search"> 
+
+                     <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px" viewBox="0 0 50 50">
+
+                        <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z">  
+                    </path>
+
+                </svg>
+
+            </span>
+        <input type="search">   
+
+         </div>
+    
+            <!--Este div contiene los iconos-->
+
+         <div class="header__iconos-container">
+                <img src="./assets/IMG/SVG/dollar.svg">
+                    <img src="./assets/IMG/SVG/carrito.svg" id="carrito">
+                        <img src="./assets/IMG/SVG/corazon.svg">
+                            <img src="./assets/IMG/SVG/usuario.svg">
+         </div>
+
+     </header>
+      
+     <!--este es el header que se mostrará en telefonos y tablets-->
+
+     <header id="header-mobile">
+        <!--logo-->
+
+         <div class="header-mobile__logo-container">
+             <img src="./assets/IMG/logo2.png" class="header-mobile__logo">
+         </div>
+
+         <!--div con el icono de la lupa que despliega la barra de busqueda-->
+
+         <div class="header-mobile__buscador">
+
+              <!--label del checkbox que muestra la barra de navegacion oculta-->
+
+             <label for="check-buscador">
+
+            <span id="icon-lupa"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px" viewBox="0 0 50 50">
+                <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+                    </svg></span> 
+
+             </label>
+
+         </div>
+         <!--checkbox que muestra la barra de navegacion-->
+
+         <input type="checkbox" id="check-buscador">
+
+          <!--barra de navegacion oculta que se muestra con el checkbox-->
+
+         <div id="buscador__container">
+
+             <!--div contiene el icono de la lupa el input de navegacion y el icono de cerrar
+            la barra de navegacion-->
+            
+             <div id="container-div">
+
+                 <span id="container-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px" viewBox="0 0 50 50">
+                    <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+                        </svg></span>
+                            <input type="search" id="container__input" placeholder="Buscar...">
+
+                 <!--label para cerrar la barra de busqueda-->
+                  
+                 <label for="check-buscador" id="esconder-buscador">
+                     &#215
+                 </label>
+             </div>  
+         </div>
+         <div id="header-mobile__iconos-container">
+             <img src="./assets/IMG/SVG/dollar.svg">
+                <img src="./assets/IMG/SVG/carrito.svg" id="carrito">
+                    <img src="./assets/IMG/SVG/corazon.svg">
+                        <img src="./assets/IMG/SVG/usuario.svg">
+         </div>
+
+     </header> 
+     
+     <!--checkbox para mostrar el menu oculto-->
+
+     <input type="checkbox" id="menu-check"> 
+            
+        <!--label del menu que mostrara el menu oculto-->
+     <div id="mostrar-menu__container">
+         <label for="menu-check" id="mostrar-menu">
+            &#8801
+         </label>
+
+     </div>
+      
+     <!--este nav se muestra en telfonos y tablets cuando se activa el checkbox -->
+      
+     <nav id="nav-mobile">
+       
+           <!--label que esconde el nav-->
+
+         <input type="checkbox" id="acerca-check">
+            <label for="menu-check" id="esconder-menu">
+             &#215
+         </label>
+
+         <ul id="nav-mobile__ul"> 
+           
+            <li><a href="#" class="inicio">INICIO</a></li>
+                <li><a href="Información.html" class="inf">INFORMACIÓN</a></li>
+                    <li> 
+            
+             <input type="checkbox" id="categorias-check">
+
+                <label for="categorias-check" id="label-categorias">
+                
+                 <a href="#" id="categorias-mobile">CATEGORIAS</a>
+
+                    <img src="./assets/IMG/flecha_down.png" id="flecha">
+
+             </label> 
+
+             </li>
+            <li><a href="Colecciones.html" class="colecciones">COLECCIONES</a></li>
+                <li><a href="ubicación.html" class="ubicación">UBICACIÓN</a></li>
+                    <li><a href="formulario.html" class="contacto">CONTACTO</a></li>
+                        <li>
+
+                 <a href="#" class="acerca_de">ACERCA DE</a> 
+             </li>
+         </ul> 
+     </nav>
+
+         <!--menú de escritorio-->
+
+     <nav id="nav-desktop">
+         <ul>  
+             <li><a href="#" class="inicio">INICIO</a></li>
+                <li><a href="Información.html" class="inf">INFORMACIÓN</a></li>
+                    <li>
+                        <a href="#" class="categorias">CATEGORIAS</a>
+
+             <!--menu desplegable de categorias-->
+
+                 <ul id="menu-categorias">  
+                     <li><a href="categorias-niñas.html">Niñas</a></li>
+                        <li><a href="categorias-niños.html">Niños</a></li>
+                 </ul>
+             </li>
+                <li><a href="Colecciones.html" class="colecciones">COLECCIONES</a></li>
+                    <li><a href="ubicación.html" class="ubicación">UBICACIÓN</a></li>
+                         <li><a href="formulario.html" class="contacto">CONTACTO</a></li>
+                                <li>
+                                    <a href="#" class="acerca_de">ACERCA DE</a>
+
+                                 <ul id="menu-acerca-de">
+                        <li><a href="como_lo_hacemos.html">¿Cómo lo hacemos?</a></li>
+                    <li><a href="perfiles.html">¿Quienes somos?</a></li>
+                <li><a href="mantenimiento.html">¿Cómos garantizamos nuestro trabajo?</a></li>
+            <li><a href="./assets/manual/Manual de Usuario.pdf">Manual de usuario</a></li>
+
+                 </ul>
+             </li>
+         </ul>
+     </nav>
+
+
+       <!--Este es el baner-->
+    <section id="baner">
+        <div class="baner__div">
+            <h1 class="baner__h1">Te damos la bienvenida a</h1>
+                <h1 class="baner__h1">Romeo y Julieta</h1>
+                    <h5 class="baner__h5">Para Vestir Niños como Niños</h5>
+         </div>     
+     </section>
+       
+      <!--Esta section contiene los divs que contienen las imagenes que van en el carrusel-->
+     <main class="carrusel"> 
+         
+        <!--Estos catorce divs contienen las 14 imágenes del carrusel-->
+
+                    <div class="carrusel__div">  
+                <img src="./assets/IMG/new2.png" class="img-new">
+            <figure class="carrusel__figure">
+        <img src="./assets/IMG/lima-limon-1.jpg" class="carrusel__img">
+    <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+
+                    <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                 </figure>
+                </div>
+        
+    <div class="carrusel__div">
+        <img src="./assets/IMG/oferta2.png" class="img-oferta">
+            <figure class="carrusel__figure">  
+                <img src="./assets/IMG/lima-limon-2.jpg" class="carrusel__img">
+                    <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+            </figure>
+        </div>
+    
+        <div class="carrusel__div">
+            <img src="./assets/IMG/agotado2.png" class="img-agotado">
+                <figure class="carrusel__figure">
+                   <img src="./assets/IMG/lima-limon-3.jpg" class="carrusel__img">
+                <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+            <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+        </figure>
+        </div>
+    
+                    <div class="carrusel__div">
+                        <img src="./assets/IMG/agotado2.png" class="img-agotado">
+                        <figure class="carrusel__figure">
+    
+                             <img src="./assets/IMG/lima-limon-4.jpg" class="carrusel__img">
+                             <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                            <figcaption class="carrusel__fig-2 ">USD 10.99$</figcaption>
+                        </figure>
+                    </div>
+    
+                        <div class="carrusel__div">
+                            <img src="./assets/IMG/oferta2.png" class="img-oferta">
+                             <figure class="carrusel__figure">
+            
+                                 <img src="./assets/IMG/naviwow.jpg" class="carrusel__img">
+                                 <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                                 <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                             </figure>
+                        </div>
+    
+                        <div class="carrusel__div">
+                            <img src="./assets/IMG/oferta2.png" class="img-oferta">
+                            <figure class="carrusel__figure">
+                                 <img src="./assets/IMG/naviwow-2.jpg" class="carrusel__img">
+                                 <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                                 <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                            </figure>
+                        </div>
+    
+                <div class="carrusel__div">
+                     <img src="./assets/IMG/agotado2.png" class="img-agotado">
+                    <figure class="carrusel__figure">
+                          <img src="./assets/IMG/naviwow-3.jpg" class="carrusel__img">
+                          <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                          <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                    </figure>
+                </div>
+    
+            <div class="carrusel__div">
+                <img src="./assets/IMG/new2.png" class="img-new">
+                <figure class="carrusel__figure">
+                    <img src="./assets/IMG/fiestas_y_villansicos.jpg" class="carrusel__img">
+                    <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                    <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                </figure>
+            </div>
+    
+        <div class="carrusel__div">
+            <img src="./assets/IMG/new2.png" class="img-new">
+            <figure class="carrusel__figure">
+                <img src="./assets/IMG/fiestas_y_villansicos2.jpg" class="carrusel__img">
+                <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+            </figure>
+        </div>
+    
+                <div class="carrusel__div">
+                    <img src="./assets/IMG/new2.png" class="img-new">
+                    <figure class="carrusel__figure">
+                        <img src="./assets/IMG/fiestas_y_villansicos3.jpg" class="carrusel__img">
+                        <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                       <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                    </figure>
+                </div>
+    
+                    <div class="carrusel__div">
+                        <img src="./assets/IMG/agotado2.png" class="img-agotado">
+                        <figure class="carrusel__figure">
+                            <img src="./assets/IMG/fiestas_y_villansicos4.jpg" class="carrusel__img">
+                            <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                            <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                        </figure>
+                    </div>
+    
+                        <div class="carrusel__div">
+                            <img src="./assets/IMG/new2.png" class="img-new">
+                            <figure class="carrusel__figure">
+                                <img src="./assets/IMG/fiestas_y_villansicos5.jpg" class="carrusel__img">
+                                <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                                <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                            </figure>
+                        </div>
+    
+                            <div class="carrusel__div">
+                                <img src="./assets/IMG/oferta2.png" class="img-oferta">
+                                <figure> 
+                                    <img src="./assets/IMG/fiestas_y_villansicos6.jpg" class="carrusel__img">
+                                    <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                                    <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                                </figure>
+                            </div>
+    
+                        <div class="carrusel__div">
+                            <img src="./assets/IMG/oferta2.png" class="img-oferta">
+                            <figure>
+                                <img src="./assets/IMG/fiestas_y_villansicos7.jpg" class="carrusel__img">
+                                <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                                <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                            </figure>
+                        </div>
+     </main>
+      
+     <!--section donde estan las targetas que mestran ropa abajo del carrusel-->
+
+     <section id="targetas">
+           
+         <!--div que contiene otros div que contienen elementos que forman las targetas-->
+        
+         <div class="targetas__padre">
+
+             <div class="targetas__div">
+
+                 <div class="targetas__div-div">
+
+                     <h4 class="targetas__h4">Últimas tendencias de niñas</h4>
+                     <a href="#" class="targetas__a">Ver más</a>
+
+                 </div>
+
+                 <img src="./assets/IMG/targetas-niñas.png" class="targetas__div-img">
+
+             </div>
+
+             <div class="targetas__div">
+                 <div class="targetas__div-div">
+                     <h4 class="targetas__h4">Últimas tendencias de niños</h4>
+                     <a href="#" class="targetas__a">Ver más</a>
+                 </div>
+                 <img src="./assets/IMG/niño.png" class="targetas__div-img-2">
+             </div>
+
+             <div class="targetas__div one">
+
+                 <div class="targetas__div-div">
+                     <h4 class="targetas__h4">Descuento de moda infantil</h4>
+                     <a href="#" class="targetas__a">Ver más</a>
+                 </div>
+                 <img src="./assets/IMG/targeta-moda-infantil.png" class="targetas__div-img-3">
+             </div>
+
+             <div class="targetas__div one">
+
+                 <div class="targetas__div-div">
+
+                     <h4 class="targetas__h4">Descubre todas las categorias</h4>
+                     <a href="#" class="targetas__a">Ver más</a>
+
+                 </div>
+                 <img src="./assets/IMG/targeta-categorias.png" class="targetas__div-img-4">
+
+             </div>
+
+         </div>
+    </section>
+
+       <!--div que contiene el h2 del segundo carrusel-->
+
+         <div id="container">
+             <div class="container__div">
+                 <h2 class="container__h2">¡LO MÁS NUEVO!</h2>
+             </div>
+         </div>
+
+     <section class="carrusel">
+
+         <div class="carrusel__div">
+
+             <img src="./assets/IMG/new2.png" class="img-new">
+
+             <figure class="carrusel__figure">
+                 <img src="./assets/IMG/lima-limon-1.jpg" class="carrusel__img">
+                 <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                 <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+             </figure>
+
+         </div>
+      
+         <div class="carrusel__div">
+
+             <img src="./assets/IMG/new2.png" class="img-new">
+             <figure class="carrusel__figure">
+                 <img src="./assets/IMG/lima-limon-2.jpg" class="carrusel__img">
+                 <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                 <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+             </figure>
+         </div>
+  
+       <div class="carrusel__div">
+             <img src="./assets/IMG/new2.png" class="img-new">
+             <figure class="carrusel__figure">
+                 <img src="./assets/IMG/lima-limon-3.jpg" class="carrusel__img">
+                 <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                 <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+             </figure>
+       </div>
+  
+                <div class="carrusel__div">
+                   <img src="./assets/IMG/new2.png" class="img-new">
+                      <figure class="carrusel__figure">
+  
+                           <img src="./assets/IMG/lima-limon-4.jpg" class="carrusel__img">
+                           <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                          <figcaption class="carrusel__fig-2 ">USD 10.99$</figcaption>
+                      </figure>
+                  </div>
+  
+                      <div class="carrusel__div">
+                       <img src="./assets/IMG/new2.png" class="img-new">
+                           <figure class="carrusel__figure">
+          
+                               <img src="./assets/IMG/naviwow.jpg" class="carrusel__img">
+                               <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                               <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                           </figure>
+                      </div>
+  
+                      <div class="carrusel__div">
+                       <img src="./assets/IMG/new2.png" class="img-new">
+                          <figure class="carrusel__figure">
+                               <img src="./assets/IMG/naviwow-2.jpg" class="carrusel__img">
+                               <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                               <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                          </figure>
+                      </div>
+  
+              <div class="carrusel__div">
+               <img src="./assets/IMG/new2.png" class="img-new">
+                  <figure class="carrusel__figure">
+                        <img src="./assets/IMG/naviwow-3.jpg" class="carrusel__img">
+                        <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                        <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                  </figure>
+              </div>
+  
+          <div class="carrusel__div">
+           <img src="./assets/IMG/new2.png" class="img-new">
+              <figure class="carrusel__figure">
+                  <img src="./assets/IMG/fiestas_y_villansicos.jpg" class="carrusel__img">
+                  <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                  <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+              </figure>
+          </div>
+  
+      <div class="carrusel__div">
+       <img src="./assets/IMG/new2.png" class="img-new">
+          <figure class="carrusel__figure">
+              <img src="./assets/IMG/fiestas_y_villansicos2.jpg" class="carrusel__img">
+              <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+              <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+          </figure>
+      </div>
+  
+              <div class="carrusel__div">
+                  <img src="./assets/IMG/new2.png" class="img-new">
+                  <figure class="carrusel__figure">
+                      <img src="./assets/IMG/fiestas_y_villansicos3.jpg" class="carrusel__img">
+                      <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                     <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                  </figure>
+              </div>
+  
+                  <div class="carrusel__div">
+                   <img src="./assets/IMG/new2.png" class="img-new">
+                      <figure class="carrusel__figure">
+                          <img src="./assets/IMG/fiestas_y_villansicos4.jpg" class="carrusel__img">
+                          <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                          <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                      </figure>
+                  </div>
+  
+                      <div class="carrusel__div">
+                          <img src="./assets/IMG/new2.png" class="img-new">
+                          <figure class="carrusel__figure">
+                              <img src="./assets/IMG/fiestas_y_villansicos5.jpg" class="carrusel__img">
+                              <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                              <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                          </figure>
+                      </div>
+  
+                          <div class="carrusel__div">
+                           <img src="./assets/IMG/new2.png" class="img-new">
+                              <figure> 
+                                  <img src="./assets/IMG/fiestas_y_villansicos6.jpg" class="carrusel__img">
+                                  <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                                  <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                              </figure>
+                          </div>
+  
+                      <div class="carrusel__div">
+                       <img src="./assets/IMG/new2.png" class="img-new">
+                          <figure>
+                              <img src="./assets/IMG/fiestas_y_villansicos7.jpg" class="carrusel__img">
+                              <figcaption class="carrusel__fig-1">franela lima limón</figcaption>
+                              <figcaption class="carrusel__fig-2">USD 10.99$</figcaption>
+                          </figure>
+                       </div>
+     </section>
+     
+          <!--section donde esta el recuadro con el h3 somos unicos-->
+
+     <section id="cuadro">
+
+        <h3 class="cuadro__h3">SOMOS ÚNICOS</h3>
+                  
+            <div class="cuadro__padre">
+
+                <div class="cuadro__div div-borde">
+                    <h4 class="cuadro__h4">Somos los fabricantes</h4>
+                        <p class="cuadro__p">
+                     Lo que nos permite tener control sobre la calidad y el manejo de nuestras 
+                     prendas desde el proceso de elaboración hasta el de venta.
+                        </p>
+            </div>
+
+            <div class="cuadro__div div-borde">
+                <h4 class="cuadro__h4">Compra sin moverte</h4>
+                    <p class="cuadro__p">
+                     Encuentra lo que necesitas, y coordina el pago y la entrega con el vendedor. 
+                     Es fácil y rápido. ¡Todos podemos hacerlo!
+                    </p>
+            </div>
+
+            <div class="cuadro__div">
+                <h4 class="cuadro__h4">Recibe tu producto</h4>
+                    <p class="cuadro__p">
+                     Acuerda la entrega de tu compra con el vendedor. 
+                     Puedes recibirlo en tu casa, en la oficina o retirarlo. ¡Tú decides qué prefieres!
+                    </p>
+            </div>
+            </div>
+    </section>
+     
+    <footer>
+            <img src="assets/IMG/SVG/corazoncitos.png" class="footer__img">
+
+                 <div class="footer__div">
+                    <h3 class="footer__h3">Siguenos en</h3>
+                        <a href="https://www.instagram.com" target="_blank"><img src="./assets/IMG/SVG/ig-instagram-icon.svg" class="footer__icon-1 footer__icon"></a>
+                            <a href="https://www.facebook.com" target="_blank"><img src="./assets/IMG/SVG/facebook-round-color-icon.svg" class="footer__icon"></a>
+                                <img src="./assets/IMG/SVG/whatsapp-color-icon.svg" class="footer__icon">
+            </div>  
+    </footer>
+
+    </body>
+
+</html>

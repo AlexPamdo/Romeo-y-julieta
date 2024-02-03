@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colecciones</title>
+    <link rel="stylesheet" href="./assets/style-colecciones.css">
+</head>
+<body>
+     <header>
+
+     <!--Este es el logo-->
+     <div class="header__logo-container">
+         <img src="./assets/IMG/logo2.png" class="header__logo">
+     </div>
+
+     <!--Nombre de la empresa-->
+     <div class="header__nombre-container">
+         <h2 class="header__h2"><span class="header__span-romeo">Romeo</span> <span class="header__span-y">y</span> <span class="header__span-julieta">Julieta</span></h2>
+     </div>
+
+     <!--Este div contiene el icono de la lupa y el input que funcionara 
+     como buscador--> 
+     <div class="header__buscador">  
+         <span id="icon-search"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px" viewBox="0 0 50 50">
+         <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
+         </svg></span>
+         <input type="search">   
+     </div>
+
+     <!--Este div contiene los iconos-->
+     <div class="header__iconos-container">
+         <img src="./assets/IMG/SVG/dollar.svg">
+         <img src="./assets/IMG/SVG/carrito.svg" id="carrito">
+         <img src="./assets/IMG/SVG/corazon.svg">
+         <img src="./assets/IMG/SVG/usuario.svg">
+     </div>
+ </header>
+   
+<!--menú-->
+<nav>
+    <ul>  
+       <li><a href="index.html" class="inicio">INICIO</a></li>
+       <li><a href="Información.html" class="inf">INFORMACIÓN</a></li>
+       <li>
+          <a href="#" class="categorias">CATEGORIAS</a>
+          <!--menu desplegable de categorias-->
+           <ul id="menu-categorias">
+             <li><a href="categorias-niñas.html">Niñas</a></li>
+             <li><a href="categorias-niños.html">Niños</a></li>
+          </ul>
+       </li>
+       <li><a href="Colecciones.html" class="colecciones">COLECCIONES</a></li>
+       <li><a href="ubicación.html" class="ubicación">UBICACIÓN</a></li>
+       <li><a href="formulario.html" class="contacto">CONTACTO</a></li>
+       <li>
+         <a href="#" class="acerca_de">ACERCA DE</a>
+           <ul id="menu-acerca-de">
+              <li><a href="como_lo_hacemos.html">¿Cómo lo hacemos?</a></li>
+              <li><a href="perfiles.html">¿Quienes somos?</a></li>
+              <li><a href="mantenimiento.html">¿Cómos garantizamos nuestro trabajo?</a></li>
+              <li><a href="./assets/manual/Manual de Usuario.pdf">Manual de usuario</a></li>
+           </ul>
+     </li>
+   </ul>
+</nav>
+
+ <section id="baner">
+     <hr class="baner__hr">
+     <div class="baner__div">
+         <h1 class="baner__h1">Nuestra Nueva<br>Colección</h1>
+         <div class="baner__buscador">
+             <input type="search" class="baner__input" placeholder="Search">
+             <img src="./assets/IMG/lupa.png" class="baner__lupa">
+         </div>
+     </div>
+ </section>
+ <main id="main">
+     <section class="main__section-1">
+         <ul class="section-1__ul">
+             <li class="section-1__li"><a href="#new">New Collection</a></li>
+             <li class="section-1__li"><a href="#NaviWow">NaviWow</a></li>
+             <li class="section-1__li"><a href="#Lima">Lima Limón</a></li>
+             <li class="section-1__li"><a href="#Fiesta">Fiestas y Villansicos</a></li>
+         </ul>
+     </section>
+     <section class="main__section-2">
+        <div class="section-2__div-padre-div" id="new">
+         <div class="section-2__div">
+             <figure>
+                 <img src="./assets/IMG/lima-limon-1.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/lima-limon-2.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/lima-limon-3.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+         </div>
+         <div class="section-2__div">
+            <figure>
+                <img src="./assets/IMG/lima-limon-1.jpg" class="section-2__img">
+                <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/IMG/lima-limon-2.jpg" class="section-2__img">
+                <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/IMG/lima-limon-3.jpg" class="section-2__img">
+                <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+            </figure>
+        </div>
+    </div>
+<div class="section-2__div-padre-div" id="NaviWow">
+         <div class="section-2__div" >
+             <figure>
+                 <img src="./assets/IMG/naviwow.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/naviwow-2.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/naviwow-3.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+         </div>
+
+            <div class="section-2__div" >
+                <figure>
+                    <img src="./assets/IMG/naviwow.jpg" class="section-2__img">
+                    <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                    <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/IMG/naviwow-2.jpg" class="section-2__img">
+                    <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                    <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+                </figure>
+                <figure>
+                    <img src="./assets/IMG/naviwow-3.jpg" class="section-2__img">
+                    <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                    <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+                </figure>
+        </div>
+    </div>
+       <div class="section-2__div-padre" id="Lima">
+
+      <div class="section-2__div">
+        <figure>
+            <img src="./assets/IMG/fiestas_y_villansicos.jpg" class="section-2__img">
+            <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+            <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/IMG/fiestas_y_villansicos2.jpg" class="section-2__img">
+            <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+            <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+        </figure>
+        <figure>
+            <img src="./assets/IMG/fiestas_y_villansicos3.jpg" class="section-2__img">
+            <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+            <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+        </figure>
+        </div>
+         <div class="section-2__div">
+             <figure>
+                 <img src="./assets/IMG/fiestas_y_villansicos.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/fiestas_y_villansicos2.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/fiestas_y_villansicos3.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+         </div>
+    </div>
+    <div class="section-2__div-padre" id="Fiesta">
+         <div class="section-2__div">
+             <figure>
+                 <img src="./assets/IMG/lima-limon-1.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/lima-limon-2.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+             <figure>
+                 <img src="./assets/IMG/lima-limon-3.jpg" class="section-2__img">
+                 <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                 <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+             </figure>
+         </div>
+         <div class="section-2__div">
+            <figure>
+                <img src="./assets/IMG/lima-limon-1.jpg" class="section-2__img">
+                <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/IMG/lima-limon-2.jpg" class="section-2__img">
+                <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+            </figure>
+            <figure>
+                <img src="./assets/IMG/lima-limon-3.jpg" class="section-2__img">
+                <figcaption class="section-2__fig-1">franela lima limón</figcaption>
+                <figcaption class="section-2__fig-2">$ 10.99$</figcaption>
+            </figure>
+        </div>
+        </div>
+     </section>
+ </main>
+ <footer>
+     <img src="assets/IMG/SVG/corazoncitos.png" class="footer__img">
+     <div class="footer__div">
+         <h3 class="footer__h3">Siguenos en</h3>
+         <a href="https://www.instagram.com" target="_blank"><img src="./assets/IMG/SVG/ig-instagram-icon.svg" class="footer__icon-1" height="20px"></a>
+         <a href="https://www.facebook.com" target="_blank"><img src="./assets/IMG/SVG/facebook-round-color-icon.svg" class="footer__icon" height="20px"></a>
+         <img src="./assets/IMG/SVG/whatsapp-color-icon.svg" class="footer__icon" height="20px">
+     </div>  
+ </footer>
+</body>
+</html>
