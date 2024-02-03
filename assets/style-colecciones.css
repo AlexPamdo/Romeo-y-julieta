@@ -1,0 +1,424 @@
+/*Fuente*/
+@font-face {
+    font-family: 'dancing';
+    src: url(./static/DancingScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'mont';
+    src: url(./static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'bigs';
+    src: url(./static/BigShouldersDisplay-Light.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    background-color: #f8f4f8;
+    display: flex;
+}
+
+#header-mobile{
+     display: none;
+}
+
+/*Contenedor del logo que esta en el header*/
+.header__logo-container{
+    margin-left: 1rem;
+}
+
+/*Logo*/
+.header__logo{
+ height: 5rem;
+}
+
+/*Contenedor del nombre de la empresa(Romeo y Julieta) que está en el header al lado del logo*/
+.header__nombre-container{
+  padding-top: 1rem;
+  margin-left: 0.5rem;
+  font-family: 'dancing';
+  font-size: 1.8em;
+}
+
+/*clase del span de Romeo*/
+.header__span-romeo{
+  color: #51e6d7;
+}
+
+/*clase del span de y*/
+.header__span-y{
+  color: #ef86c7;
+}
+
+/*clase del span de Julieta*/
+.header__span-julieta{
+  color: #ff3131;
+}
+
+/*clase del contenedor del input y el icono de lupa que están en el header*/
+
+.header__buscador{
+  margin-top: 1.5rem;
+  margin-left: 6.2rem;
+  position: relative;
+  display: inline-block;
+  width: 35%;
+}
+
+
+#check-buscador{
+    display: none;
+}
+
+  #menu-check{
+    display: none;
+  }
+
+#mostrar-menu{
+   display: none;
+}
+
+
+/*Estilos del input*/
+.header__buscador input[type="search"] {
+  width: 100%;
+  padding: 0.8rem 0.8rem 0.8rem 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/*Estilos del icono de la lupa*/
+
+.header__buscador #icon-search {
+  position:absolute;
+  font-size: 1em;
+  color: #999;
+  top: 0.6rem;
+  left: 0.6rem;
+}
+
+/*clase del contenedor de los iconos que están en el header al lado del input*/
+.header__iconos-container{
+    padding-top: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 10%; /* Alinear a la derecha */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*height y margin de los iconos que están en el header*/
+.header__iconos-container img{
+  height: 2.5rem;
+  margin-left: 1.1rem;
+
+}
+
+#nav-mobile{
+    display: none;
+}
+
+nav{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    background-color: #df6eb3;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a{
+    font-size: 1.2em;
+    margin-left: 0.3rem;
+    color: #f5f5f5;
+    font-family: 'mont'; 
+    font-weight: bold;
+}
+
+/*Clases de los enlaces del nav, se le dá un borde a la izquierda y padding*/
+.categorias, .inf, .contacto, .acerca_de, .ubicación, .colecciones{
+    padding-left: 0.5rem;
+}
+
+/*menu desplegable de categorias*/
+
+nav > ul > li > #menu-categorias{
+    display: none;
+    position: absolute;
+    width: 9.5rem;
+    z-index: 200;  
+}
+
+nav ul li:hover #menu-categorias{
+      display: block;
+      margin-left: 0.5rem;  
+}
+
+nav > ul > li:hover > #menu-categorias > li{
+    background-color: #df6eb3;
+    border-bottom: 0.1rem solid white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+    transition: 0.8s;
+}
+
+nav > ul > li:hover > #menu-categorias > li:hover{
+    cursor: pointer;
+    background-color: #ef86c7;
+}
+
+/*menu desplegable de acerca de*/
+
+#menu-acerca-de{
+    display: none;
+    position: absolute;
+    width: 9.5rem;
+    z-index: 200; 
+}
+
+nav > ul > li:hover > #menu-acerca-de{
+     display: block;  
+    
+}
+
+nav > ul > li:hover > #menu-acerca-de > li{
+    background-color: #df6eb3;
+    border-bottom: 0.1rem solid white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    transition: all 0.8s;
+}
+
+nav > ul > li > #menu-acerca-de > li:hover{
+    background-color: #ef86c7;
+    cursor: pointer;
+}
+
+/*ID del div que contiene dos h1 y un h5 color blanco(está justo abajo del header)*/
+
+#baner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baner__hr{
+    margin: 0.5rem 0 0.5rem 0;
+    width: 90%;
+    color: #a44c82;
+}
+
+.baner__div{
+    background-image: url(./IMG/fon223.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 90%;
+    height: 13rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.baner__h1{
+    font-size: 3em;
+    text-align: center;
+    color: #f6f4f3;
+    margin: 1.5rem 0 0.8rem 0;
+    font-family: 'mont';
+}
+
+.baner__buscador{
+    width: 48%;
+    height: 22%;
+    position: relative;
+    padding: 1px;
+}
+
+.baner__input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+
+.baner__lupa{
+    position: absolute;
+    height: 20px;
+    top: 0.6rem;
+    right: 1.5rem;
+}
+
+#main{
+    display: flex;
+}
+
+.main__section-1{
+    width: 30%; 
+    display: flex;
+    justify-content: center;
+}
+
+.section-1__ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1__li{
+    background-color: #f6f4f3;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0.6rem 0 0 0;
+    text-align: center;
+    width: 15rem;
+}
+
+.main__section-2{
+    width: 65%;
+    display: flex;
+    overflow: hidden;
+    height: 27rem;
+}
+
+.section-2__div{
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.section-2__img{
+    height: 10rem;
+    width: 11rem;
+    margin: 0.5rem 1rem 0 1.5rem;
+}
+
+.section-2__fig-1{
+    margin-left: 2rem;
+}
+
+.section-2__fig-2{
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+footer{
+    height: 6.5rem;
+    padding: 1rem;
+}
+
+.footer__img{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0rem;
+}
+
+.footer__div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+    margin-top: -3rem;
+}
+
+.footer__h3{
+    color: #424242;
+    font-family: 'dancing';
+    font-size: 2em;
+}
+
+.footer__icon-1{
+    margin-left: 2rem;
+}
+
+.footer__icon{
+    margin-left: 1rem;
+}
+
+@media screen and (min-width:1024px){
+    
+
+    /*Contenedor del logo que esta en el header*/
+    .header__logo-container{
+        height: 5rem;
+        margin-left: 0.5rem;
+        align-self: center;
+    }
+    
+    
+    /*Contenedor del nombre de la empresa(Romeo y Julieta) que está en el header al lado del logo*/
+    .header__nombre-container{
+        align-self: center;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        width: 14rem;
+        padding-bottom: 1rem;
+        margin-left: 0.5rem;
+        font-family: 'dancing';
+        font-size: 1.5em;
+      }
+    
+      
+    .header__buscador{
+        height: 3rem;
+        margin-top: 1.5rem;
+        margin-left: 4rem;
+        position: relative;
+        display: inline-block;
+        width: 35%;
+      }
+      
+      
+    /*clase del contenedor de los iconos que están en el header al lado del input*/
+    .header__iconos-container{
+        align-self: center;
+        margin-left: 5%; /* Alinear a la derecha */
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /*height y margin de los iconos que están en el header*/
+    .header__iconos-container img{
+      height: 2.5rem;
+    }
+    
+    
+    nav a{
+        font-size: 1.1em;
+        margin-left: 0.3rem;
+        color: #f5f5f5;
+        font-family: 'mont'; 
+        font-weight: bold;
+    }
+
+    
+/*menu desplegable de acerca de*/
+
+#menu-acerca-de{
+    display: none;
+    position: absolute;
+    width: 8rem;
+    z-index: 100; 
+}
+
+}
+}    
