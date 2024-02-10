@@ -1,238 +1,261 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ubicación</title>
+    <title>Ubicación</title>
     <link rel="stylesheet" href="./assets/style-ubicación.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
+
 <body>
-     <header id="header-desktop">  
+    <header id="header-desktop">
 
         <!--Este es el logo-->
 
 
-         <div class="header__logo-container">
-             <img src="./assets/IMG/logo2.png" class="header__logo">
-         </div>
+        <div class="header__logo-container">
+            <img src="./assets/IMG/logo2.png" class="header__logo">
+        </div>
 
-         <!--Nombre de la empresa-->
+        <!--Nombre de la empresa-->
 
         <div class="header__nombre-container">
-             <h2 class="header__h2"><span class="header__span-romeo">Romeo</span> <span class="header__span-y">y</span> <span class="header__span-julieta">Julieta</span></h2>
+            <h2 class="header__h2"><span class="header__span-romeo">Romeo</span> <span class="header__span-y">y</span>
+                <span class="header__span-julieta">Julieta</span></h2>
         </div>
 
-          <!--Este div contiene el icono de la lupa y el input que funcionara 
-            como buscador--> 
+        <!--Este div contiene el icono de la lupa y el input que funcionara 
+            como buscador-->
 
-        <div class="header__buscador">  
-            <span id="icon-search"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px" viewBox="0 0 50 50">
-                <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
-                    </svg></span>
-                        <input type="search">   
+        <div class="header__buscador">
+            <span id="icon-search"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px"
+                    viewBox="0 0 50 50">
+                    <path
+                        d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z">
+                    </path>
+                </svg></span>
+            <input type="search">
         </div>
 
-          <!--Este div contiene los iconos-->
+        <!--Este div contiene los iconos-->
         <div class="header__iconos-container">
-                <img src="./assets/IMG/SVG/dollar.svg">
-                    <img src="./assets/IMG/SVG/carrito.svg" id="carrito">
-                        <img src="./assets/IMG/SVG/corazon.svg">
-                            <img src="./assets/IMG/SVG/usuario.svg">
+            <img src="./assets/IMG/SVG/dollar.svg">
+            <img src="./assets/IMG/SVG/carrito.svg" id="carrito">
+            <img src="./assets/IMG/SVG/corazon.svg">
+            <img src="./assets/IMG/SVG/usuario.svg">
         </div>
 
-     </header>
+    </header>
 
-     <header id="header-mobile">
-        
+    <header id="header-mobile">
+
         <div class="header-mobile__logo-container">
-              <img src="./assets/IMG/logo2.png" class="header-mobile__logo">
+            <img src="./assets/IMG/logo2.png" class="header-mobile__logo">
         </div>
 
         <div class="header-mobile__buscador">
             <label for="check-buscador">
-                <span id="icon-lupa"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px" viewBox="0 0 50 50">
-                     <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
-                        </svg></span>  
-        </label>
-
-        </div>
-            <input type="checkbox" id="check-buscador">
-                <div id="buscador__container">
-                    <div id="container-div">
-                         <span id="container-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px" viewBox="0 0 50 50">
-                                <path d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"></path>
-
-                                    </svg></span>
-
-                                <input type="search" id="container__input" placeholder="Buscar...">
-                            <label for="check-buscador" id="esconder-buscador">
-                                             &#215
-                        </label>
-        </div>  
-       </div>
-
-       <div id="header-mobile__iconos-container">
-            <img src="./assets/IMG/SVG/dollar.svg">
-                <img src="./assets/IMG/SVG/carrito.svg" id="carrito">
-                     <img src="./assets/IMG/SVG/corazon.svg">
-                         <img src="./assets/IMG/SVG/usuario.svg">
-       </div>
-  </header> 
-
-    <input type="checkbox" id="menu-check"> 
-        <div id="mostrar-menu__container">
-            <label for="menu-check" id="mostrar-menu">
-                  &#8801
-                </label>
-        </div>
-
-      
-  <nav id="nav-mobile">
-     
-        <input type="checkbox" id="acerca-check">
-            <label for="menu-check" id="esconder-menu">
-                             &#215
+                <span id="icon-lupa"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px" y="0px"
+                        viewBox="0 0 50 50">
+                        <path
+                            d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z">
+                        </path>
+                    </svg></span>
             </label>
-        <ul id="nav-mobile__ul"> 
-         
+
+        </div>
+        <input type="checkbox" id="check-buscador">
+        <div id="buscador__container">
+            <div id="container-div">
+                <span id="container-icon"> <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" x="0px"
+                        y="0px" viewBox="0 0 50 50">
+                        <path
+                            d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z">
+                        </path>
+
+                    </svg></span>
+
+                <input type="search" id="container__input" placeholder="Buscar...">
+                <label for="check-buscador" id="esconder-buscador">
+                    &#215
+                </label>
+            </div>
+        </div>
+
+        <div id="header-mobile__iconos-container">
+            <img src="./assets/IMG/SVG/dollar.svg">
+            <img src="./assets/IMG/SVG/carrito.svg" id="carrito">
+            <img src="./assets/IMG/SVG/corazon.svg">
+            <img src="./assets/IMG/SVG/usuario.svg">
+        </div>
+    </header>
+
+    <input type="checkbox" id="menu-check">
+    <div id="mostrar-menu__container">
+        <label for="menu-check" id="mostrar-menu">
+            &#8801
+        </label>
+    </div>
+
+
+    <nav id="nav-mobile">
+
+        <label for="menu-check" id="esconder-menu">
+            &#215
+        </label>
+        <ul id="nav-mobile__ul">
+
             <li><a href="index.html" class="inicio">INICIO</a></li>
-                <li><a href="Información.html" class="inf">INFORMACIÓN</a></li>
-                    <li> 
-                        <input type="checkbox" id="categorias-check">
-                    <label for="categorias-check" id="label-categorias">
-              
-                <a href="#" id="categorias-mobile">CATEGORIAS</a>
-            <img src="./assets/IMG/flecha_down.png" id="flecha">
-                    </label>
-                </li>
+            <li><a href="Información.html" class="inf">INFORMACIÓN</a></li>
+            <li>
+                <details>
+                    <summary class="summary categorias">Categorias <img src="./assets/IMG/flecha_down.png" class="flecha"></summary>
+                    <li class="summary__li"><a href="categorias-niñas.html">Niñas</a></li>
+                    <li class="summary__li"><a href="categorias-niños.html">Niños</a></li>
+                </details>
+            </li>
             <li><a href="Colecciones.html" class="colecciones">COLECCIONES</a></li>
-                    <li><a href="ubicación.html" class="ubicación">UBICACIÓN</a></li>
-                <li><a href="formulario.html" class="contacto">CONTACTO</a></li>
-             <li>
-            <a href="#" class="acerca_de">ACERCA DE</a> 
-                </li>
-            </ul> 
-    </nav>
-  
-<!--menú-->
-    <nav id="nav-desktop">
-            <ul>  
-                <li><a href="index.html" class="inicio">INICIO</a></li>
-                    <li><a href="Información.html" class="inf">INFORMACIÓN</a></li>
-                        <li>
-                    <a href="#" class="categorias">CATEGORIAS</a>
-        <!--menu desplegable de categorias-->
-                <ul id="menu-categorias">
-            <li><a href="categorias-niñas.html">Niñas</a></li>
-        <li><a href="categorias-niños.html">Niños</a></li>
-    </ul>
-                        </li>
-                     <li><a href="Colecciones.html" class="colecciones">COLECCIONES</a></li>
-                <li><a href="ubicación.html" class="ubicación">UBICACIÓN</a></li>
+            <li><a href="ubicación.html" class="ubicación">UBICACIÓN</a></li>
             <li><a href="formulario.html" class="contacto">CONTACTO</a></li>
-    <li>
-        <a href="#" class="acerca_de">ACERCA DE</a>
-            <ul id="menu-acerca-de">
-                <li><a href="como_lo_hacemos.html">¿Cómo lo hacemos?</a></li>
+            <li>
+                    <details>
+                        <summary class="summary categorias">Acerca de <img src="./assets/IMG/flecha_down.png" class="flecha"></summary>
+                        <li class="summary__li"><a href="como_lo_hacemos.html">¿Como lo hacemos?</a></li>
+                        <li class="summary__li"><a href="perfiles.html">¿Quienes somos?</a></li>
+                        <li class="summary__li"><a href="mantenimiento.html">¿Como garantizamos nuestro trabajo?</a></li>
+                        <li class="summary__li"><a href="./assets/manual/Manual de Usuario.pdf">Manual de usuario</a></li>
+                    </details>
+             </li>
+        </ul>
+    </nav>
+
+    <!--menú-->
+    <nav id="nav-desktop">
+        <ul>
+            <li><a href="index.html" class="inicio">INICIO</a></li>
+            <li><a href="Información.html" class="inf">INFORMACIÓN</a></li>
+            <li>
+                <a href="#" class="categorias">CATEGORIAS</a>
+                <!--menu desplegable de categorias-->
+                <ul id="menu-categorias">
+                    <li><a href="categorias-niñas.html">Niñas</a></li>
+                    <li><a href="categorias-niños.html">Niños</a></li>
+                </ul>
+            </li>
+            <li><a href="Colecciones.html" class="colecciones">COLECCIONES</a></li>
+            <li><a href="ubicación.html" class="ubicación">UBICACIÓN</a></li>
+            <li><a href="formulario.html" class="contacto">CONTACTO</a></li>
+            <li>
+                <a href="#" class="acerca_de">ACERCA DE</a>
+                <ul id="menu-acerca-de">
+                    <li><a href="como_lo_hacemos.html">¿Cómo lo hacemos?</a></li>
                     <li><a href="./como_lo_hacemos.html">¿Quienes somos?</a></li>
-                        <li><a href="./mantenimiento.html">¿Cómos garantizamos nuestro trabajo?</a></li>
-                            <li><a href="./assets/manual/Manual de Usuario.pdf">Manual de usuario</a></li>
-    </ul>
-   </li>
- </ul>
-</nav>
-  
- <main id="main">
-    <!--div donde esta el h1 que dice ubicaacion y el h2 que dice romeo y julieta-->
-     <div id="main__div-up-padre">
-         <div id="main__div-up">
-             <h1 id="div-up__h1">UBICACIÓN</h1>
-             <h2 id="div-up__h2"><span class="header__span-romeo">Romeo</span> <span class="header__span-y">y</span> <span class="header__span-julieta">Julieta</span></h2>
-         </div>
-     </div>
+                    <li><a href="./mantenimiento.html">¿Cómos garantizamos nuestro trabajo?</a></li>
+                    <li><a href="./assets/manual/Manual de Usuario.pdf">Manual de usuario</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
-     <!--section que contiene las estrellas. el texto y las manos-->
+    <main id="main">
+        <!--div donde esta el h1 que dice ubicaacion y el h2 que dice romeo y julieta-->
+        <div id="main__div-up-padre">
+            <div id="main__div-up">
+                <h1 id="div-up__h1">UBICACIÓN</h1>
+                <h2 id="div-up__h2"><span class="header__span-romeo">Romeo</span> <span class="header__span-y">y</span>
+                    <span class="header__span-julieta">Julieta</span></h2>
+            </div>
+        </div>
 
-     <section id="main__section-sedes">
-              
+        <!--section que contiene las estrellas. el texto y las manos-->
+
+        <section id="main__section-sedes">
+
             <!--div que contiene la mano de la izquierda y el texto-->
 
-        <div id="section-sedes__div-1">
-                
-            <!--div con las estrellas-->
+            <div id="section-sedes__div-1">
 
-            <div class="fondo_stars1">
+                <!--div con las estrellas-->
 
-                <img class="fondo_stars__img1" src="./assets/IMG/stars_right.png">
+                <div class="fondo_stars1">
 
-              </div>
+                    <img class="fondo_stars__img1" src="./assets/IMG/stars_right.png">
 
-        <div id="div-1__txt-manos-container">
-                <img src="./assets/IMG/tele1.png" id="sede__mano">
+                </div>
+
+                <div id="div-1__txt-manos-container">
+                    <img src="./assets/IMG/tele1.png" id="sede__mano">
                     <div id="txt-manos-container__div">
                         <h4 id="sede__h4">SEDE SECUNDARIA</h4>
-                            <p id="sede__p">
-                         Sede secundaria en la carrera 3, esquina calle 6. Centro Comercial Antares, planta 
-                         baja local 2, Urbanizacion Nueva Segovia, Venezuela, 
-                         Barquisimeto Estado Lara
-                            </p>
-    </div>
-    </div> 
+                        <p id="sede__p">
+                            Sede secundaria en la carrera 3, esquina calle 6. Centro Comercial Antares, planta
+                            baja local 2, Urbanizacion Nueva Segovia, Venezuela,
+                            Barquisimeto Estado Lara
+                        </p>
+                    </div>
+                </div>
 
-        <div class="sede__btn-container">
-                 <button class="sede__btn"><a href="https://www.google.com/maps/place/Centro+Comercial+Antares/@10.0616917,-69.2936034,18.75z/data=!4m15!1m8!3m7!1s0x8e876761863533fd:0xc56375a0afb2d5f2!2sUrbanizacion+Nueva+Segovia,+Barquisimeto+3001,+Lara!3b1!8m2!3d10.063273!4d-69.2948667!16s%2Fg%2F1v2kygx4!3m5!1s0x8e876763771b2aab:0x63ad8d5c5769bbf1!8m2!3d10.061788!4d-69.292817!16s%2Fg%2F11h9rrmx95?hl=es&entry=ttu" target="_blank" class="sede__a">SEDE SECUNDARIA</a></button>
-             </div>  
-         </div>
+                <div class="sede__btn-container">
+                    <button class="sede__btn"><a
+                            href="https://www.google.com/maps/place/Centro+Comercial+Antares/@10.0616917,-69.2936034,18.75z/data=!4m15!1m8!3m7!1s0x8e876761863533fd:0xc56375a0afb2d5f2!2sUrbanizacion+Nueva+Segovia,+Barquisimeto+3001,+Lara!3b1!8m2!3d10.063273!4d-69.2948667!16s%2Fg%2F1v2kygx4!3m5!1s0x8e876763771b2aab:0x63ad8d5c5769bbf1!8m2!3d10.061788!4d-69.292817!16s%2Fg%2F11h9rrmx95?hl=es&entry=ttu"
+                            target="_blank" class="sede__a">SEDE SECUNDARIA</a></button>
+                </div>
+            </div>
 
 
-    <div id="section-sedes__div-2">
+            <div id="section-sedes__div-2">
 
-        <div class="fondo_stars2">
+                <div class="fondo_stars2">
 
-             <img class="fondo_stars__img2" src="./assets/IMG/stars_left.png" alt="">
+                    <img class="fondo_stars__img2" src="./assets/IMG/stars_left.png" alt="">
 
-        </div>
+                </div>
 
-    <div id="div-2__txt-manos-container">
+                <div id="div-2__txt-manos-container">
 
-            <img src="./assets/IMG/tele2.png" id="sede__mano-2">
-        
-        <div id="txt-manos-container-2__div">
-                 <h4 id="sede__h4-2">SEDE PRINCIPAL</h4>
-                 <p id="sede__p-2">
-                     Su sede principal esta ubicada en la avenida Fraternidad. Calle 15.CC 
-                     Carvajal Plaza, primer piso local 5. Venezuela, 
-                     El tocuyo Estado Lara, Parroquia Bolivar Municipio Moran
-                 </p>
-    </div>
+                    <img src="./assets/IMG/tele2.png" id="sede__mano-2">
 
-    </div> 
+                    <div id="txt-manos-container-2__div">
+                        <h4 id="sede__h4-2">SEDE PRINCIPAL</h4>
+                        <p id="sede__p-2">
+                            Su sede principal esta ubicada en la avenida Fraternidad. Calle 15.CC
+                            Carvajal Plaza, primer piso local 5. Venezuela,
+                            El tocuyo Estado Lara, Parroquia Bolivar Municipio Moran
+                        </p>
+                    </div>
 
-        <div class="sede__btn-container">
+                </div>
 
-                 <button class="sede__btn"><a href="https://maps.app.goo.gl/rsXujKpGkukKRq2p8" target="_blank" class="sede__a">SEDE SECUNDARIA</a></button>
-             </div>  
-         </div>
-        
-     </section>
+                <div class="sede__btn-container">
 
-</main>
-     <footer>
+                    <button class="sede__btn"><a href="https://maps.app.goo.gl/rsXujKpGkukKRq2p8" target="_blank"
+                            class="sede__a">SEDE PRINCIPAL</a>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
         <img src="assets/IMG/SVG/corazoncitos.png" class="footer__img">
 
-            <div class="footer__div">
-                <h3 class="footer__h3">Siguenos en</h3>
-                    <a href="https://www.instagram.com" target="_blank"><img src="./assets/IMG/SVG/ig-instagram-icon.svg" class="footer__icon-1 footer__icon" height="20px"></a>
-                        <a href="https://www.facebook.com" target="_blank"><img src="./assets/IMG/SVG/facebook-round-color-icon.svg" class="footer__icon" height="20px"></a>
-                    <img src="./assets/IMG/SVG/whatsapp-color-icon.svg" class="footer__icon" height="20px">
-        </div>  
+        <div class="footer__div">
+            <h3 class="footer__h3">Siguenos en</h3>
+            <a href="https://www.instagram.com" target="_blank"><img src="./assets/IMG/SVG/ig-instagram-icon.svg"
+                    class="footer__icon-1 footer__icon" height="20px"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="./assets/IMG/SVG/facebook-round-color-icon.svg"
+                    class="footer__icon" height="20px"></a>
+            <img src="./assets/IMG/SVG/whatsapp-color-icon.svg" class="footer__icon" height="20px">
+        </div>
     </footer>
-    </body>
-    
-</html>  
+</body>
+
+</html>
