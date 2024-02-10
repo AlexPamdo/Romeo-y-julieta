@@ -540,7 +540,7 @@ footer{
 }
 
 }
- @media screen and (min-width:1024px){
+ @media screen and (min-width:1023px) and (max-width:1246px){
     
 
 /*Contenedor del logo que esta en el header*/
@@ -762,27 +762,21 @@ nav a{
         position: relative;
       }
       
-      #categorias-check{
-        display: none;
-      }
-      
-      #categorias-check:checked ~ ul {
-           background-color: red;
+      .flecha{
+        height: 12px;
       }
 
-      #label-categorias{
-         margin-left: 5px;
-      }
-      #flecha{
-        height: 15px;
-        transition: 0.5s;
-        transform-origin: center;
+      .summary{
+        color: #f5f5f5;
+        font-family: 'mont';
+        font-weight: bold;
+        font-size: 1.3em;
       }
 
-     #acerca-check{
-        display: none;
+      .summary__li{
+        margin-top: 0.8rem;
       }
-    
+
 /*ID del div que contiene dos h1 y un h5 color blanco(está justo abajo del header)*/
 
 #baner{
@@ -909,7 +903,6 @@ nav a{
 }
 
 }
-
 
 @media screen and (min-width: 559px) and (max-width:780px) {
     #header-desktop{
@@ -1060,25 +1053,20 @@ nav a{
         position: relative;
       }
       
-      #categorias-check{
-        display: none;
-      }
-      
-      #categorias-check:checked ~ ul {
-           
+            
+      .flecha{
+        height: 12px;
       }
 
-      #label-categorias{
-         margin-left: 5px;
-      }
-      #flecha{
-        height: 15px;
-        transition: 0.5s;
-        transform-origin: center;
+      .summary{
+        color: #f5f5f5;
+        font-family: 'mont';
+        font-weight: bold;
+        font-size: 1.3em;
       }
 
-     #acerca-check{
-        display: none;
+      .summary__li{
+        margin-top: 0.8rem;
       }
     
 /*ID del div que contiene dos h1 y un h5 color blanco(está justo abajo del header)*/
@@ -1367,26 +1355,20 @@ nav a{
         text-align: center;
         position: relative;
       }
-      
-      #categorias-check{
-        display: none;
-      }
-      
-      #categorias-check:checked ~ ul {
-           
+       
+      .flecha{
+        height: 12px;
       }
 
-      #label-categorias{
-         margin-left: 5px;
-      }
-      #flecha{
-        height: 15px;
-        transition: 0.5s;
-        transform-origin: center;
+      .summary{
+        color: #f5f5f5;
+        font-family: 'mont';
+        font-weight: bold;
+        font-size: 1.3em;
       }
 
-     #acerca-check{
-        display: none;
+      .summary__li{
+        margin-top: 0.8rem;
       }
 
       /*estilos de la section de las 4 targetas*/

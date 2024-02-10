@@ -692,25 +692,20 @@ footer{
         position: relative;
       }
       
-      #categorias-check{
-        display: none;
-      }
-      
-      #categorias-check:checked ~ ul {
-           background-color: red;
+         
+      .flecha{
+        height: 12px;
       }
 
-      #label-categorias{
-         margin-left: 5px;
-      }
-      #flecha{
-        height: 15px;
-        transition: 0.5s;
-        transform-origin: center;
+      .summary{
+        color: #f5f5f5;
+        font-family: 'mont';
+        font-weight: bold;
+        font-size: 1.3em;
       }
 
-     #acerca-check{
-        display: none;
+      .summary__li{
+        margin-top: 0.8rem;
       }
 
 #banner__circulo{
@@ -727,7 +722,7 @@ footer{
     font-size: 2em;
 }
 
-#banner__niña{
+#banner__niño{
     margin-top: -0.1rem;
     right: 0rem;
     width: 11.2rem;
@@ -898,21 +893,20 @@ footer{
         position: relative;
       }
       
-      #categorias-check{
-        display: none;
-      }
-      
-      #label-categorias{
-         margin-left: 5px;
-      }
-      #flecha{
-        height: 15px;
-        transition: 0.5s;
-        transform-origin: center;
+    
+      .flecha{
+        height: 12px;
       }
 
-     #acerca-check{
-        display: none;
+      .summary{
+        color: #f5f5f5;
+        font-family: 'mont';
+        font-weight: bold;
+        font-size: 1.3em;
+      }
+
+      .summary__li{
+        margin-top: 0.8rem;
       }
 
       #banner__circulo{
@@ -929,7 +923,7 @@ footer{
         font-size: 2.2em;
     }
     
-    #banner__niña{
+    #banner__niño{
         margin-top: -0.1rem;
         right: 0rem;
         width: 11.2rem;
@@ -943,10 +937,6 @@ footer{
 .section__figure{
     width: 8rem;
     margin: 0;
-}
-
-.section__article{
-   
 }
 
 .section__figure img{
@@ -1116,25 +1106,22 @@ footer{
         text-align: center;
         position: relative;
       }
-      
-      #categorias-check{
-        display: none;
-      }
-      
-      #label-categorias{
-         margin-left: 5px;
-      }
-      #flecha{
-        height: 15px;
-        transition: 0.5s;
-        transform-origin: center;
+     
+      .flecha{
+        height: 12px;
       }
 
-     #acerca-check{
-        display: none;
+      .summary{
+        color: #f5f5f5;
+        font-family: 'mont';
+        font-weight: bold;
+        font-size: 1.3em;
       }
 
-      
+      .summary__li{
+        margin-top: 0.8rem;
+      }
+
       #banner__circulo{
         width: 14rem;
         height: 14rem;
@@ -1149,7 +1136,7 @@ footer{
         font-size: 2.3em;
     }
     
-    #banner__niña{
+    #banner__niño{
         margin-top: -0.1rem;
         right: 25%;
         width: 11.2rem;
